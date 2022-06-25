@@ -3,23 +3,23 @@
 **Table of Contents**
 
 - [USGS-Lidar-custom-package](#USGS-Lidar-custom-package)
-  - [Overview](#overview)
-  - [Scenario](#scenario)
+  - [Introduction](#introduction)
+  - [Discription](#discription)
   - [Approach](#approach)
   - [Project Structure](#project-structure)
     - [assets](#assets)
     - [notebooks](#notebooks)
     - [scripts](#scripts)
     - [tests](#tests)
-    - [logs](#logs)
+    - [logs](#log)
     - [root folder](#root-folder)
   - [Dependancies](#Dependancies)
 
-## Overview
+## introduction
 
 This Python package allows you to retrieve, manipulate, and visualize USGS 3DEP lidar point cloud data.
 
-## Scenario
+## discription
 You work at an AgriTech, which has a mix of domain experts, data scientists, data engineers. As part of the data engineering team, you are tasked to produce an easy to use, reliable and well designed python module that domain experts and data scientists can use to fetch, visualise, and transform publicly available satellite and LIDAR data. In particular, your code should interface with USGS 3DEP and fetch data using their API. 
 
 ## Approach
@@ -50,7 +50,6 @@ The repository has a number of files including python scripts, jupyter notebooks
 - the folder containing log files (if it doesn't exist it will be created once logging starts)
 
 ### root folder
-- `10 Academy Batch 4 - Week 6 Challenge.pdf`: the challenge document
 - `requirements.txt`: a text file lsiting the projet's dependancies
 - `setup.py`: a configuration file for installing the scripts as a package
 - `README.md`: Markdown text with a brief explanation of the project and the repository structure.
