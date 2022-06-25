@@ -1,6 +1,6 @@
-# USGS-Lidar-custom-package
+# USGS_LIDAR_AgriTech
 
-**Table of Contents**
+**Contents**
 
 - [USGS-Lidar-custom-package](#USGS-Lidar-custom-package)
   - [Introduction](#introduction)
