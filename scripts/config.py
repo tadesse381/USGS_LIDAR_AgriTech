@@ -4,7 +4,7 @@ from pathlib import Path
 class Config:
   RANDOM_SEED = 27
   ROOT_PATH = Path("../")
-  REPO = "https://github.com/eandualem/PythonLidar"
+  REPO = "https://github.com/tadesse381/USGS_LIDAR_AgriTech"
   LOG_FILE = ROOT_PATH / "log/PythonLidara.log"
   DATA_PATH = ROOT_PATH / "data/"
   ASSETS_PATH = ROOT_PATH / "assets/"
