@@ -57,3 +57,8 @@ This package is dependent on the following python packages.
 * Shapely
 * Geopandas
 * Matplotlib
+## Contrbutor
+- Tadesse Kebede
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
