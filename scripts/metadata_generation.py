@@ -10,7 +10,7 @@ DEFAULT_FILENAME = "usgs_3dep_filenames"
 
 
 class GetMetadata():
-  """ Generates metadata describing the region, year, xmin, xmax, ymin, ymax, 
+  """ This generates metadata describing the region, year, xmin, xmax, ymin, ymax, 
       and amount of point cloud data for all EPT resources on AWS. 
   """
 
