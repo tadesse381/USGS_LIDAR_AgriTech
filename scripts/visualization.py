@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 
 class Vis:
-  """ This class is used for Visualizing geospatial data
+  """ This class is used for Visualizing geospatial data: plot raster,render 3d and heatmap
   """
 
   def __init__(self, df: gpd.GeoDataFrame):

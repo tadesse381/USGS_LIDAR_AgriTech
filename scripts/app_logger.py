@@ -12,7 +12,7 @@ class App_Logger:
         pass
 
     def get_file_handler(self) -> logging.FileHandler :
-        # create logs folder if it doesn't exist
+        # create logs folder if it doesn't created before
         Path("../logs").mkdir(parents=True, exist_ok=True)
         file_handler = TimedRotatingFileHandler(f"../logs/app.log", when='d')
         file_handler.setLevel(logging.INFO)
