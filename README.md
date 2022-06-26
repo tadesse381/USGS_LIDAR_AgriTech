@@ -36,14 +36,10 @@ The repository has a number of files including python scripts, jupyter notebooks
 - `usgs_3dep_metadata.csv`: a csv file scrapped from [usgs.entwine.io](https://usgs.entwine.io/) containing data about regions and their boundary points along with the year it is collected
 
 ### notebooks:
-- `example.ipynb`: a jupyter notebook showing how to fetch data
-- 
+- Include a jupyter notebooks showing how to fetch data and subsampling data
 
 ### scripts:
-- `app_logger.py`: a python script for logging
-- `file_handler.py`: a python script for handling reading and writing of csv, pickle and other files
-- `lidar_processor.py`: the main python script of this project that does the fetching, displaying and sub-sampling
-
+-the folder contains scripts used data fetching, sampling, visualization and etc 
 ### tests:
 - the folder containing unit tests for components in the scripts
 
