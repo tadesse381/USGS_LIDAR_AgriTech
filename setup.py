@@ -12,8 +12,8 @@ requirements = ['pandas>=1.1.0', 'numpy>=1.19.0', ]
 test_requirements = ['pytest>=3', ]
 
 setup(
-    author="Zelalem Getahun",
-    email="zelalemgetahun9374@gmail.com",
+    author="Tadesse Kebede",
+    email="taddeekb@gmail.com",
     python_requires='>=3.6',
     classifiers=[
         'Natural Language :: English',
@@ -31,7 +31,7 @@ setup(
     packages=find_packages(include=['scripts', 'scripts.*']),
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/zelalemgetahun9374/USGS-Lidar-custom-package',
+    url='https://github.com/tadesse381/USGS_LIDAR_AgriTech',
     version='0.1.0',
     zip_safe=False,
 )
