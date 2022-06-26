@@ -22,7 +22,7 @@ Agricultural technology or agrotechnology (abbreviated agtech, agritech, AgriTec
 ## Discription
 In this study fetching, visualizing and transforming has been performed on USGS data. Open source python packages is used to design python module that domain experts and data scientists can use to fetch, visualise, and transform publicly available satellite and LIDAR data. The developed python module interface with USGS 3DEP and fetch data using their API. 
 
-## Approach
+## Methods Applied
 The project is divided and implemented by the following phases
 - Fetching point cloud data of all available year of given a boundary polygon in any coordinate reference system (CRS)
 - Graphically displaingy returned elevation files as a 3D render plot.
@@ -57,7 +57,7 @@ This package is dependent on the following python packages.
 * Shapely
 * Geopandas
 * Matplotlib
-## Contrbutor
+## Contributor
 - Tadesse Kebede
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
